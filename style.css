@@ -58,10 +58,42 @@ header ul li a:hover {
 
 .hero div h1 {
     color: var(--VERY-DARK-BLUE);
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 .hero {
     display: flex;
     align-items: center;
+    gap: 3rem;
+    margin: 2rem;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.left p {
+    color: var(--GRAYISH-BLUE);
+}
+
+.left div a {
+    text-decoration: none;
+    padding: .7rem 1.5rem;
+    border-radius: 5px;
+}
+
+.chrome {
+    color: white;
+    background: var(--SOFT-BLUE);
+    border: 1px solid var(--SOFT-BLUE);
+    box-shadow: 1px 1px 4px var(--GRAYISH-BLUE);
+}
+
+.firefox {
+    background: hsla(229, 8%, 60%, 0.16);
+    box-shadow: 1px 1px 4px var(--GRAYISH-BLUE);
+    border: 1px solid hsla(229, 8%, 60%, 0.16);
+    color: var(--VERY-DARK-BLUE);
 }
