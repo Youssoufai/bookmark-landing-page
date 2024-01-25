@@ -223,3 +223,56 @@ section ul li {
 .info-section>section+section p {
     color: var(--GRAYISH-BLUE);
 }
+
+.download-section {
+    text-align: center;
+    margin: 5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.text-box {
+    width: 50%;
+}
+
+.text-box h1 {
+    font-size: 2.5rem;
+    color: var(--VERY-DARK-BLUE);
+}
+
+.text-box p {
+    color: var(--GRAYISH-BLUE);
+    margin: 1rem;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+
+.cards .card {
+    padding: 6rem 3rem;
+    box-shadow: 2px 2px 1px var(--GRAYISH-BLUE);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.cards .card img {
+    height: 8rem;
+    width: 8rem;
+}
+
+.cards .card button {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
