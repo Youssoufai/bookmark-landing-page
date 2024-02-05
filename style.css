@@ -303,3 +303,59 @@ section ul li {
     justify-content: end;
     align-items: end;
 }
+
+.questions {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.questions h2 {
+    font-size: 2rem;
+    color: var(--VERY-DARK-BLUE);
+}
+
+.questions p {
+    color: var(--GRAYISH-BLUE);
+    margin: 1rem;
+}
+
+.toggle p {
+    width: 70%;
+    color: var(--VERY-DARK-BLUE);
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.toggles {
+    width: 100%;
+}
+
+.toggle hr {
+    opacity: 0.5;
+}
+
+.toggle p {
+    text-align: left;
+}
+
+.question-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sec-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+.sec-container button {
+    margin: 2rem;
+}
